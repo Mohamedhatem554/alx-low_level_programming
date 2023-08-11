@@ -12,13 +12,17 @@ int a, A;
 a = 97;
 A = 65;
 
-while (a < 123, A < 91)
+while (a < 123)
 {
 putchar(a);
-putchar(A);
 a++;
+}
+while (A < 91)
+{
+putchar(A);
 A++;
 }
+
 putchar("\n");
 return (0);
 }
