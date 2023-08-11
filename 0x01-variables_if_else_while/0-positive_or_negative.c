@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - main function if
- * Description:  Positive anything is better than negative nothing
+ * Description: Positive anything is better than negative nothing
  * Return: 0
  */
 int main(void)
