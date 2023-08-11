@@ -18,7 +18,7 @@ int main(void)
 
 	int last;
 
-	last = n % 10;
+	last = (n % 10);
 
 	if (last > 5)
 	{
