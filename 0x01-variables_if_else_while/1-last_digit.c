@@ -5,9 +5,11 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - main function if
- * return : 1
+ * main - main function
+ * No Description:
+ * Return: 0
  */
+
 int main(void)
 {
 	int n, last;
