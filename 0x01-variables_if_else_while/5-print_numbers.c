@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - main
- * Description: print numbers
- * return: 0
+ * main - main function
+ * Description:printing digit number
+ * Return: 0
  */
-
 int main(void)
 {
 int a;
