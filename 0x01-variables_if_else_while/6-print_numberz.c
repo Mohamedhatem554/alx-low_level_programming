@@ -2,7 +2,7 @@
 
 /**
  * main - main function
- * Description:printinggg single digits numbers of base 10 starting from 01
+ * Description:printing single digits numbers of base 10 starting from 0
  * Return: 0
  */
 int main(void)
