@@ -10,7 +10,7 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		for (c = a + 1; c <=9; c++)
+		for (c = a + 1; c <= 9; c++)
 		{
 
 		for (b = c + 1; b <= 9; b++)
@@ -26,7 +26,7 @@ int main(void)
 			}
 
 		}
-	   }
+		}
 	}
 	putchar('\n');
 	return (0);
