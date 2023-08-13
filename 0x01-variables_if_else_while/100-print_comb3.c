@@ -4,10 +4,10 @@
  * main - print double numbers
  * Return: 0 always.
 */
-int main()
+int main(void)
 {
 	int a, b;
-	
+
 	for (a = 0; a < 10; a++)
 	{
 		for (b = a + 1; b < 10; b++)
@@ -25,5 +25,5 @@ int main()
 
 
 	putchar('\n');
-	return 0;
+	return (0);
 }
