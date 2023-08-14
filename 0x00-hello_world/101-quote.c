@@ -2,10 +2,10 @@
 #include <unistd.h>
 
 /**
- * main - write command
+ * main - print without printf command
  * return: 1 if success
 */
-int main()
+int main(void)
 {
 
 
