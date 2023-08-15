@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * jack_bauer - entry point
+*/
 void jack_bauer(void)
 {
 	int a, b, c, d;
