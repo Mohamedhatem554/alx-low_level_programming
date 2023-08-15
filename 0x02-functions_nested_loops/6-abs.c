@@ -4,14 +4,15 @@
  * _abs - entry point
  * Return: abs if i is negative
 */
-int _abs(int)
+int _abs(int i)
 {
-    int i;
 
-    int abs;
+    
     
     if (i < 0)
     {
+        int abs;
+        
         abs = i * -1;
         return(abs);
     }
