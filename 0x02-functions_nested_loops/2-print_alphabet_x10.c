@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 
-
+/**
+ * print_alphabet - print function
+*/
 void print_alphabet_x10(void)
 {
 	int ch;
@@ -11,10 +13,10 @@ void print_alphabet_x10(void)
 	{
 		for (ch = 97; ch <= 122; ch++)
 		{
-			putchar(ch);
+			_putchar(ch);
 
 		}
-	   putchar('\n');
+	   _putchar('\n');
 
 	}
 
