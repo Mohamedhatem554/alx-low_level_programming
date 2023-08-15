@@ -2,14 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - main entry point
- * Return: 0 always
+ * print_alphabet - print entry point
 */
-int main(void)
-{
-
-	
-
 	void print_alphabet(void)
 	{
 		char ch;
@@ -20,5 +14,3 @@ int main(void)
 		}
 		_putchar('\n');
 	}
-	return 0;
-}
