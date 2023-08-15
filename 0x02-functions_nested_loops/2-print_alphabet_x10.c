@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - print function
+ * print_alphabet_x10 - print function
 */
 void print_alphabet_x10(void)
 {
