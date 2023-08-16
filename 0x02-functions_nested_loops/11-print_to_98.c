@@ -16,8 +16,10 @@ void print_to_98(int n)
 			_putchar('\n');
 		}
 		else
+		{
 			_putchar(sr + '0');
-			_putchar(",");
-			_putchar(" ");
+			_putchar(',');
+			_putchar(' ');
+		}
 	}
 }
