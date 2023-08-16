@@ -12,22 +12,22 @@ void print_to_98(int n)
 	for (sr = n; sr > 98; sr--)
 	{
 
-			printf("%d", sr);
-			printf(",");
-			printf(" ");
+		printf("%d", sr);
+		printf(",");
+		printf(" ");
 	}
 
 	for (sr = n; sr < 98; sr++)
 	{
 
-			printf("%d", sr);
-			printf(",");
-			printf(" ");
+		printf("%d", sr);
+		printf(",");
+		printf(" ");
 	}
 
 	if (sr == 98)
 	{
-		printf("%d", sr);
-		printf("\n");
+			printf("%d", sr);
+			printf("\n");
 	}
 }
