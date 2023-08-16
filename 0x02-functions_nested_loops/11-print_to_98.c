@@ -7,26 +7,27 @@
 */
 void print_to_98(int n)
 {
+	int sr;
 
-	for (; n > 98; n--)
+	for (sr = n; sr > 98; sr--)
 	{
 
-			printf("%d", n);
+			printf("%d", sr);
 			printf(",");
 			printf(" ");
 	}
 
-	for (; n < 98; n++)
+	for (sr = n; sr < 98; sr++)
 	{
 
-			printf("%d", n);
+			printf("%d", sr);
 			printf(",");
 			printf(" ");
 	}
 
-	if (n == 98)
+	if (sr == 98)
 	{
-		printf("%d", n);
+		printf("%d", sr);
 		printf("\n");
 	}
 }
