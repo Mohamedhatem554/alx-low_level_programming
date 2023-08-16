@@ -12,10 +12,10 @@ int main(void)
 
 	f1 = 0;
 	f2 = 1;
-	
+
 	for (i = 0; i < 50; i++)
 	{
-	   sum = f1 + f2;
+		sum = f1 + f2;
 
 		printf("%lu", sum);
 
@@ -28,7 +28,7 @@ int main(void)
 			printf(",");
 			printf(" ");
 		}
-		else 
+		else
 		{
 			printf("\n");
 		}
