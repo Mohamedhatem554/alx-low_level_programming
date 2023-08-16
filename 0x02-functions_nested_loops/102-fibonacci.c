@@ -25,12 +25,13 @@ int main(void)
 
 		if (i == 49)
 		{
-			printf(",");
-			printf(" ");
+			printf("\n");
+			
 		}
 		else
 		{
-			printf("\n");
+			printf(",");
+			printf(" ");
 		}
 	}
 
