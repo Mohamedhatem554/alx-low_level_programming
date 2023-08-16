@@ -12,15 +12,27 @@ int main(void)
 
 	f1 = 0;
 	f2 = 1;
+
+	
 	for (i = 0; i <= 50; i++)
 	{
 	   sum = f1 + f2;
 
-		printf("%lu\n", sum);
+		printf("%lu", sum);
 
 
 		f1 = f2;
 		f2 = sum;
+
+		if (i < 50)
+		{
+			printf(",");
+			printf(" ");
+		}
+		else 
+		{
+			printf("\n");
+		}
 	}
 
 	return (0);
