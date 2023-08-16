@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 	unsigned long f1, f2, sum;
-    float totalsum;
+	float totalsum;
 
 	f1 = 0;
 	f2 = 1;
@@ -20,15 +20,16 @@ int main(void)
 
 		f1 = f2;
 		f2 = sum;
-        if (sum > 4000000)
-            break;
-        
-        if ((sum % 2) == 0)
-        
-            totalsum += sum;
+		if (sum > 4000000)
+			break;
+
+		if ((sum % 2) == 0)
+
+			totalsum += sum;
 
 	}
-    printf("%.0f\n", totalsum);
+	printf("%.0f\n", totalsum);
 
 	return (0);
 }
+
