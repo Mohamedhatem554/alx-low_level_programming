@@ -12,12 +12,12 @@ void print_to_98(int n)
 	{
 		if (sr == 98)
 		{
-			printf("%d", sr);
-			printf("\n");
+			_putchar(sr + '0');
+			_putchar('\n');
 		}
 		else
-			printf("%d", sr);
-			printf(",");
-			printf(" ");
+			_putchar(sr + '0');
+			_putchar(",");
+			_putchar(" ");
 	}
 }
