@@ -3,6 +3,7 @@
 
 /**
  * print_line - entry point
+ * @n: numbers of lines
  * Return: nothing
 */
 void print_line(int n)
