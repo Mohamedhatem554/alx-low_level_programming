@@ -5,7 +5,7 @@
  * mul - entry point
  * @a: first number
  * @b: second number
- * Return 0
+ * Return: a * b
 */
 int mul(int a, int b)
 {
