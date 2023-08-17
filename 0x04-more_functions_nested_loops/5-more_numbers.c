@@ -5,21 +5,21 @@
  * more_numbers - entry point
  * Return: Nothing
 */
-void more_numbers(void)
+int main()
 {
 	int i, n;
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i < 10; i++)
 	{
 		for (n = 0; n <= 14; n++)
 		{
 			if (n > 9)
 			{
-				_putchar(n / 10 + '0');
+				putchar(n / 10 + '0');
 			}
-		_putchar(n % 10 + '0');
+		putchar(n % 10 + '0');
 
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
