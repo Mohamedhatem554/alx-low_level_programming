@@ -5,7 +5,7 @@
  * print_numbers - entry point
  * Return: Nothing
 */
-int main()
+void print_numbers(void)
 {
 	int i;
 
