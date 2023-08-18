@@ -10,6 +10,10 @@ void print_number(int n)
 	int i;
 
 	i = n;
+	 if (i <= 9)
+    {
+        _putchar(i + '0');
+    }
 	if (i == 0)
 	{
 		_putchar(i + '0');
@@ -43,5 +47,4 @@ void print_number(int n)
 			i = n;
 			_putchar(i % 10 + '0');
 		}
-		_putchar('\n');
 }
