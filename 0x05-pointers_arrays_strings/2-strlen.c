@@ -1,10 +1,17 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 
-
+/**
+ * _strlen - entry point
+ * @s: character to be counted
+ * Return: l
+*/
 int _strlen(char *s)
 {
-    printf("%d", strlen(s));
-    return (0);
+	int l;
+
+	for(; *s != "\0"; s++)
+	{
+		l++;
+	}
+	return (l);
 }
