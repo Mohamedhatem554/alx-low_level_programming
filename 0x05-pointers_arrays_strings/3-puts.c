@@ -1,11 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
+/**
+ * _puts - entry point
+ * @str: character
+ * Return: Nothing
+*/
 void _puts(char *str)
 {
-    int i;
+	int i;
 
-    for (i = 0; i < 62; i++)
-    {
-        printf("%c\n", str);
-    }
+	for (i = 0; i < 62; i++)
+	{
+		_putchar(str);
+	}
+	_putchar('\n');
 }
