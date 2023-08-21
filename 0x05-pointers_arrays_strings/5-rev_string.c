@@ -10,7 +10,7 @@ void rev_string(char *s)
 		c++;
 	}
 
-	j -= 1;
+	j = c - 1;
 
 	for (i = 0; i < c; i++)
 	{
