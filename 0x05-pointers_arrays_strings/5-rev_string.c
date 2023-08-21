@@ -3,7 +3,6 @@
 void rev_string(char *s)
 {
 	int c, i, j;
-	char rev[1000];
 
 	c = 0;
 	while (s[c] != '\0')
