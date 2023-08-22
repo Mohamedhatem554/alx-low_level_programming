@@ -1,7 +1,10 @@
 #include "main.h"
 
 
-
+/**
+ * puts2 - entry point
+ * @str: char
+*/
 void puts2(char *str)
 {
 	int i;
