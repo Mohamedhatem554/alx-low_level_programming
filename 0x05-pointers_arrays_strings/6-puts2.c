@@ -4,7 +4,7 @@
 
 void puts2(char *str)
 {
-    int i, c;
+    int c;
 
     c = 0;
 
