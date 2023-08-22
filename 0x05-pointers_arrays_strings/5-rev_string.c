@@ -12,7 +12,7 @@ void rev_string(char *s)
 		c++;
 	}
 
-	a = c - 1;
+	*a = c - 1;
 
 	for (i = 0; i < (c / 2); i++)
 	{
