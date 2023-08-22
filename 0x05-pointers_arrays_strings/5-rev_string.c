@@ -3,7 +3,7 @@
 void rev_string(char *s)
 {
 	int c, i, j;
-	char rev[1000];
+	char *a, aux;
 
 	c = 0;
 	
@@ -14,10 +14,11 @@ void rev_string(char *s)
 
 	j = c - 1;
 
-	for (i = 0; i <= c; i++)
+	for (i = 0; i < (c / 2); i++)
 	{
-		rev[i] = s[j];
-		j--;
-		s[i] = rev[i];
+		aux = s[i];
+		s[i] = *a;
+		*a = aux;
+		a--;
 	}
 }
