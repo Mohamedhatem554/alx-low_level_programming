@@ -4,13 +4,13 @@
 
 void puts2(char *str)
 {
-    int c;
+	int i;
 
-    c = 0;
+	i = 0;
 
-    while (c < '\0')
-    {
-        _putchar(str[c]);
-        c = c + 2;
-    }
+	while (*(str + i) != '\0')
+	{
+		_putchar(*(str + i));
+		i = i + 2;
+	}
 }
