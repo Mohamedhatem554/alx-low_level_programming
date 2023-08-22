@@ -2,7 +2,7 @@
 
 void rev_string(char *s)
 {
-	int c, i, j;
+	int c, i;
 	char *a, aux;
 
 	c = 0;
@@ -12,7 +12,7 @@ void rev_string(char *s)
 		c++;
 	}
 
-	j = c - 1;
+	a = c - 1;
 
 	for (i = 0; i < (c / 2); i++)
 	{
