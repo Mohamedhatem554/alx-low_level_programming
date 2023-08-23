@@ -8,6 +8,6 @@
 */
 int _atoi(char *s)
 {
-	printf("hello world%c", s);
+	printf("hello world%s", s);
 	return (0);
 }
