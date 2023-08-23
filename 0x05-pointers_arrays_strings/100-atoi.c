@@ -7,5 +7,5 @@
 */
 int _atoi(char *s)
 {
-	_putchar(s);
+	putchar(s);
 }
