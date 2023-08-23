@@ -7,5 +7,6 @@
 */
 int _atoi(char *s)
 {
-	putchar(s);
+	printf("hello world%c", s);
+	return (0);
 }
