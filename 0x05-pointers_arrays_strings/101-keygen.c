@@ -17,7 +17,7 @@ int main(void)
 	srand((unsigned int)(time(NULL)));
 
 
-	char numbers[] = "0123456789";
+	int numbers[] = "0123456789";
 
 	char lower[] = "abcdefghijklmnoqprstuvwyzx";
 
@@ -25,7 +25,7 @@ int main(void)
 
 	char symbols[] = "!@#$^&*?";
 
-	char password[N];
+	int password[N];
 
 	randomizer = rand() % 4;
 
