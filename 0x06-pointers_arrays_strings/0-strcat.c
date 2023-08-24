@@ -3,7 +3,7 @@
 /**
  * _strcat - entry point
  * @dest: char
- * @src: char
+ * @src: source
  * Return: dest
 */
 int _strlen(char *s);
