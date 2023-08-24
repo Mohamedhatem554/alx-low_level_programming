@@ -1,11 +1,6 @@
 #include "main.h"
 
-/**
- * _strcat - entry point
- * @dest: char
- * @src: source
- * Return: dest
-*/
+
 int _strlen(char *s);
 
 char *_strcat(char *dest, char *src)
