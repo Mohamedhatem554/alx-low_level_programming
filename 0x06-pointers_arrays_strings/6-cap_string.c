@@ -13,7 +13,7 @@ char *cap_string(char *str)
 	while (str[n] != '\0')
 	{
 		if (str[n] == ' '
-		|| str[n] == '	'
+		|| str[n] == '\t'
 		|| str[n] == '\n'
 		|| str[n] == ','
 		|| str[n] == ';'
