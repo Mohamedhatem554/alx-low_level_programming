@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * print_diagsums - entry point
+ * @a: int
+ * @size: int
+*/
 void print_diagsums(int *a, int size)
 {
 	int i, l1 = 0, l2 = 0;
