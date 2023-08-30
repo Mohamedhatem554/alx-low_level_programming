@@ -1,44 +1,27 @@
 #include "main.h"
-#include <stdio.h>
-
-
-int _sqrt_recursion(int n)
-{
-    
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+ * sqrt2 - square root function
+ * @a: num 1
+ * @b: num 2
+ * Return: Square
+*/
+int sqrt2(int a, int b)
 {
-    int r;
+	if (b * b == a)
+	return (b);
+	if (b * b > a)
+	return (-1);
+	return (sqrt2(a, b + 1));
+}
 
-    r = _sqrt_recursion(1);
-    printf("%d\n", r);
-    r = _sqrt_recursion(1024);
-    printf("%d\n", r);
-    r = _sqrt_recursion(16);
-    printf("%d\n", r);
-    r = _sqrt_recursion(17);
-    printf("%d\n", r);
-    r = _sqrt_recursion(25);
-    printf("%d\n", r);
-    r = _sqrt_recursion(-1);
-    printf("%d\n", r);
-    return (0);
+/**
+ * _sqrt_recursion - square root
+ * @n: square root
+ * Return: square
+*/
+int _sqrt_recursion(int n)
+{
+	return (sqrt2(n, 1));
 }
