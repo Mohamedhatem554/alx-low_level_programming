@@ -2,18 +2,18 @@
 
 
 /**
- * sqrt2 - square root function
+ * square - square root function
  * @a: num 1
  * @b: num 2
  * Return: Square
 */
-int sqrt2(int a, int b)
+int square(int a, int b)
 {
 	if (b * b == a)
 	return (b);
 	if (b * b > a)
 	return (-1);
-	return (sqrt2(a, b + 1));
+	return (square(a, b + 1));
 }
 
 /**
@@ -23,5 +23,5 @@ int sqrt2(int a, int b)
 */
 int _sqrt_recursion(int n)
 {
-	return (sqrt2(n, 1));
+	return (square(n, 1));
 }
