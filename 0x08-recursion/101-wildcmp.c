@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * wildcmp - entry point
+ * @s1: char
+ * @s2: char
  * Return: 0 if success
 */
-int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2)
 {
 	_putchar('\n');
-	return (*s);
+	return (1);
 }
