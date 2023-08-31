@@ -9,5 +9,6 @@
 int wildcmp(char *s1, char *s2)
 {
 	_putchar('\n');
-	return (1);
+	return (*s1);
+    return (*s2);
 }
