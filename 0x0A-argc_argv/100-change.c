@@ -31,6 +31,6 @@ int main(int argc, char *argv[])
 		else if (cents - 1 >= 0)
 		cents = cents - 1;
 	}
-	printf ("%d\n", total);
+	printf("%d\n", total);
 	return (0);
 }
