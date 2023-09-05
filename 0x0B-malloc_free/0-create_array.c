@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+ * create_array - entry point
+ * Return: Null if failed
+ * @size: size
+ * @c: char
+*/
 char *create_array(unsigned int size, char c)
 {
 	char *array = NULL;
