@@ -40,5 +40,5 @@ int **alloc_grid(int width, int height)
 			newarr[i][j] = 0;
 		}
 	}
-	return(newarr);
+	return (newarr);
 }
