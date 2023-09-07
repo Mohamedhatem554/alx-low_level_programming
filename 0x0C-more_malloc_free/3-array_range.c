@@ -9,23 +9,28 @@
  * @max: int
  * Return: to the pointer p
 */
+
 int *array_range(int min, int max)
 {
-	int *p;
-	int i;
+	int *ptr;
+	int arr;
 
 	if (min > max)
-	return (NULL);
-	p = malloc(sizeof(int) * (max - min + 1));
-	if (p == NULL)
-	return (NULL);
-
-	i = 0;	
-	while (min < max)
 	{
-		p[i] = min;
-		min++;
-		i++;
+		return (NULL);
 	}
-	return (p);
+
+	ptr = malloc(sizeof(int) * (max - min + 1));
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+	arr = 0;
+	while (min <= max)
+	{
+		ptr[arr] = min;
+		min++;
+		arr++;
+	}
+	return (ptr);
 }
