@@ -20,7 +20,7 @@ int *array_range(int min, int max)
 	if (p == NULL)
 	return (NULL);
 
-	i = 0;	
+	i = 0;
 	while (min <= max)
 	{
 		p[i] = min;
