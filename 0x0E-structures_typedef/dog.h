@@ -16,3 +16,7 @@ typedef struct dog
 
 
 #endif
+
+// additional functions
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
