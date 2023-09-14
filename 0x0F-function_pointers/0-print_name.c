@@ -5,6 +5,7 @@
  * print_name - entry point
  * @name: char
  * @f: function
+ * Return: NOTHING
 */
 void print_name(char *name, void (*f)(char *))
 {
