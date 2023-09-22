@@ -7,7 +7,7 @@
 /**
  * print_list -  prints all the elements of a list_t list.
  * @h: header
- * Return: counter
+ * Return: number of nodes.
 */
 size_t print_list(const list_t *h)
 {
@@ -15,20 +15,14 @@ size_t print_list(const list_t *h)
 	int count = 0;
 
 	p = h;
-	if (p->str == NULL)
-	{
-		printf("[0] (nil)\n");
-	}
-
 	while (p != NULL)
 	{
-		if (p->str != NULL)
-		{
+		if (p->str == NULL)
+			printf("[0] (nil)\n");
+		else
 		printf("[%d] %s\n", p->len, p->str);
-		count++;
-		}
 		p = p->next;
-		
+		count++;
 	}
 	return (count);
 }
