@@ -14,7 +14,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	ptr->n = n;
 	ptr->next = *head;
 	*head = ptr;
-	if (!head)
+	if (!*head)
 	return (NULL);
 	return (*head);
 
