@@ -19,7 +19,7 @@ unsigned int binary_to_uint(const char *b)
 		{
 			dec <<= 1;
 		}
-		else
+		else if (b[n] != '0' && b[n] != '1')
 		return (0);
 	}
 	return (dec);
