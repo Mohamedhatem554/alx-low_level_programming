@@ -4,7 +4,7 @@
  * flip_bits - flib bits
  * @n: number
  * @m: second number
- * Return: or
+ * Return: count
 */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
@@ -18,5 +18,5 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 		c++;
 		or >>= 1;
 	}
-	return (or);
+	return (c);
 }
