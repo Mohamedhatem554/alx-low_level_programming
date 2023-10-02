@@ -6,5 +6,6 @@
 */
 int foo(void)
 {
+	printf("hello");
 	return (0);
 }
