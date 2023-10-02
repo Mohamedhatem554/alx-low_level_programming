@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * foo - entry point
+ * main - entry point
  * Return: 0
 */
-int foo(void)
+int main(void)
 {
 	printf("hello");
 	return (0);
