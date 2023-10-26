@@ -7,22 +7,22 @@
 */
 void print_binary(unsigned long int n)
 {
-		unsigned long int div, ch;
-		char b;
+	unsigned long int div, ch;
+	char b;
 
-		b = 0;
-		div = pow(2, sizeof(unsigned long int) * 8 - 1);
-		for (; div != 0; div >>= 1)
+	b = 0;
+	div = pow(2, sizeof(unsigned long int) * 8 - 1);
+	for (; div != 0; div >>= 1)
+	{
+		ch = n & div;
+		if (ch == div)
 		{
-			ch = n & div;
-			if (ch == div)
-			{
-				b = 1;
-			printf("1");
-			}
-			else if (b == 1 || div == 1)
-			{
-				printf("0");
-			}
+		b = 1;
+		printf("1");
 		}
+		else if (b == 1 || div == 1)
+		{
+			printf("0");
+		}
+	}
 }
