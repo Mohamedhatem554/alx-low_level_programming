@@ -8,7 +8,7 @@
 */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
-	dlistint_t *ptr = malloc(sizeof(dlistint_t)), *tp = *head;
+	dlistint_t *ptr = malloc(sizeof(dlistint_t)), *tp = NULL;
 
 	if (!ptr)
 	return (NULL);
@@ -26,8 +26,10 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		tp = *head;
 		while (tp && tp->next)
 			tp = tp->next;
-			tp->next = ptr;
-			ptr->prev = tp;
+
+		tp->next = ptr;
+		ptr->prev = tp;
+
 
 	}
 	return (ptr);
