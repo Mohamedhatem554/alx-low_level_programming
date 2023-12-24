@@ -18,8 +18,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	hash->array = malloc(sizeof(char *) * 1);
 	if (hash->array == NULL)
-	return (NULL);
-
+	{
+		free(hash->array);
+		return (NULL);
+	}
 	hash->size = size;
 	return (hash);
 
