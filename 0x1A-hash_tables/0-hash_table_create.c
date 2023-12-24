@@ -15,7 +15,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 		return (NULL);
 	}
 
-	hash->array = malloc(sizeof(char *) * 1);
+	hash->array = malloc(sizeof(char *) * size);
 	if (hash->array == NULL)
 	{
 		free(hash->array);
@@ -24,4 +24,31 @@ hash_table_t *hash_table_create(unsigned long int size)
 	hash->size = size;
 	return (hash);
 
+}
+
+
+
+
+
+
+
+
+
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "hash_tables.h"
+
+/**
+ * main - check the code for
+ *
+ * Return: Always EXIT_SUCCESS.
+ */
+int main(void)
+{
+    hash_table_t *ht;
+
+    ht = hash_table_create(1024);
+    printf("%p\n", (void *)ht);
+    return (EXIT_SUCCESS);
 }
